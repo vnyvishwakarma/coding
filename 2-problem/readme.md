@@ -5,9 +5,9 @@ In first place, we’re going to identifying the variables
 
 <br>
 
-![](images/flower1.png= 750x550)
+![](images/flower1.png=750x550)
 
-![flower](images/flower1.png= 750x550)
+![flower](images/flower1.png=750x550)
 
 
 
