@@ -25,3 +25,7 @@ We have two variables
 
 * The Petal lenght on centimeters
 * The Petal Width on centimeters
+
+### One more example
+
+If you want to identify if an animal is a dog or a cat, it’s only natural that your input would be images of dogs and cats. Typically, this data is represented by a matrix of numerical values that correspond to each pixel in an image.
