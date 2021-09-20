@@ -5,12 +5,8 @@ In first place, we’re going to identifying the variables
 
 <br>
 
-![](flower1.png=750x550)
 
-![flower](flower1.png=750x550)
-
-
-[![Product Name Screen Shot][product-screenshot]](images/flower1.png=750x550)
+![flower](flower1.png= 750x550)
 
 
 ### Sepal
