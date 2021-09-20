@@ -7,8 +7,9 @@ In first place, we’re going to identifying the variables
 
 ![](images/flower1.png= 750x550)
 
+![flower](/images/flower1.png)
 
-![](images/flower1.png =750x550)
+
 
 ### Sepal
 The sepal is the part that forms the calyx of a flower, typically function as protection for the flower in bud, and often as support for the petals when in bloom.
