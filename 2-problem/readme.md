@@ -6,7 +6,7 @@ In first place, we’re going to identifying the variables
 <br>
 
 
-![flower](flower1.png= 750x550)
+![flower](flower1.png = 750x550)
 
 
 ### Sepal
