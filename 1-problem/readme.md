@@ -13,4 +13,4 @@ Example :
 
 Important: first and second array should not be empty [] 
 
-Implmentation Language : Python, Go and JavaScript
+Implementation Language : Python, Go and JavaScript
