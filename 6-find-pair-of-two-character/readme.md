@@ -1,0 +1,1 @@
+![factor](images/ques.png)
