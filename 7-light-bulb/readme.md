@@ -13,6 +13,15 @@ You can press the same switch multiple times.
 Note : 0 represents the bulb is off and 1 represents the bulb is on.
 
 
+### Example Input
+
+A = [0 1 0 1]
+
+
+### Example Output
+
+4
+
 ### Example Explanation
 
 press switch 0 : [1 0 1 0]
