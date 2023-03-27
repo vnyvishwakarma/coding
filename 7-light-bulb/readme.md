@@ -16,6 +16,9 @@ Note : 0 represents the bulb is off and 1 represents the bulb is on.
 ### Example Explanation
 
 press switch 0 : [1 0 1 0]
+
 press switch 1 : [1 1 0 1]
+
 press switch 2 : [1 1 1 0]
+
 press switch 3 : [1 1 1 1]
