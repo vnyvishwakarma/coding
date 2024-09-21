@@ -12,3 +12,9 @@ EXPOSE 8080
 
 # Run the jar file
 ENTRYPOINT ["java", "-jar", "/app/microservice.jar"]
+
+
+
+docker build -t spring-boot-microservice:latest .
+docker run -p 8080:8080 spring-boot-microservice:latest
+docker run -d -p 8080:8080 spring-boot-microservice:latest
