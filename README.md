@@ -18,3 +18,25 @@ ENTRYPOINT ["java", "-jar", "/app/microservice.jar"]
 docker build -t spring-boot-microservice:latest .
 docker run -p 8080:8080 spring-boot-microservice:latest
 docker run -d -p 8080:8080 spring-boot-microservice:latest
+
+
+
+
+
+
+
+
+
+FROM oracle-jdk:11-stable
+
+
+WORKDIR /app
+
+
+COPY macs-profile-rest-service-1.0.0-SNAPSHOT.jar /app/microservice.jar
+
+
+EXPOSE 8080
+
+# Run the JAR file
+ENTRYPOINT ["java", "-jar", "/app/microservice.jar"]
