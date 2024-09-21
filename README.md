@@ -1,23 +1,14 @@
-# DSA
-CREATE KEYSPACE demo
-WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+# Use an official OpenJDK runtime as a parent image
+FROM openjdk:11-jre-slim
 
+# Set the working directory inside the container
+WORKDIR /app
 
-USE demo;
+# Copy the jar file from the target folder into the container
+COPY target/spring-boot-microservice-0.0.1-SNAPSHOT.jar /app/microservice.jar
 
+# Expose the port your Spring Boot application will run on
+EXPOSE 8080
 
-CREATE TABLE users (
-    id UUID PRIMARY KEY,
-    name text,
-    age int
-);
-
-INSERT INTO users (id, name, age) VALUES (uuid(), 'David', 22);
-INSERT INTO users (id, name, age) VALUES (uuid(), 'Eva', 35);
-INSERT INTO users (id, name, age) VALUES (uuid(), 'Frank', 40);
-INSERT INTO users (id, name, age) VALUES (uuid(), 'Grace', 29);
-INSERT INTO users (id, name, age) VALUES (uuid(), 'Henry', 33);
-INSERT INTO users (id, name, age) VALUES (uuid(), 'Ivy', 27);
-INSERT INTO users (id, name, age) VALUES (uuid(), 'Jack', 31);
-
-SELECT * FROM users;
+# Run the jar file
+ENTRYPOINT ["java", "-jar", "/app/microservice.jar"]
